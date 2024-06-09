@@ -22,7 +22,7 @@ namespace CSharpFundamentals
             john.LastName = "Albert";
             john.Introduce();
 
-            Classes.Math.Calculator calculator = new Classes.Math.Calculator();
+            Classes.Math.Calculator calculator = new Classes.Math.Calculator(); //file path with periods
             var result = calculator.Add(1, 2);
             Console.WriteLine(result);
 
